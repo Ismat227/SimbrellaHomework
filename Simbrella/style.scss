@@ -115,3 +115,76 @@
     margin-left: 81px;   
     padding: 0 20px;
 }
+.what-we-do{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0 0 0;
+    .what-we-do-h2{
+        color: #2D3192;
+        margin: 0 0 0 82px;
+        padding: 15px 0 0 0;
+        h2{
+            font-size: 30px;
+        }
+
+    }
+    .read-more{
+        margin: 0 82px 35px 0; 
+       
+        a:hover{
+            box-shadow:inset 0 0 0 3px #FF931E ;            
+        }      
+       a{
+           display:flex;
+           justify-content: space-between;
+           align-items: center;
+           height: 56px;
+           padding:0 24px 0 24px;           
+           font-weight: 600px;
+           font-size: 15px;
+           box-shadow: inset 0 0 0 3px #dfe4eb;
+           border-radius: 12px;
+           text-decoration: none;
+           font-size: 19px;
+           color: black;
+        }
+        .read-more-icon{
+            padding: 0 0 0 50px;            
+        }
+        
+    }
+}
+.what-we-do-card{
+    display: flex;
+    // justify-content: space-between;s
+    align-items: stretch;
+    text-align: center;
+    .what-we-do-first-card{   
+        width: 25%;
+        height: 345px;
+        display: flex;
+        flex-direction: column;  
+        align-items:center ;
+        border: 1px solid #D5DDE4;
+    }
+    .what-we-do-second-card{  
+        width: 25%;    
+        height: 345px; 
+        display: flex;
+        flex-direction: column;  
+        align-items:center ;
+        border: 1px solid #D5DDE4;        
+    }
+    .what-we-do-third-card{
+        width: 25%;
+        height: 345px;
+        display: flex;
+        flex-direction: column;  
+        align-items:center ;
+        border: 1px solid #D5DDE4;          
+    }
+    p{
+        color: #b7bdc2;
+        font-size: 20px;
+    }
+}
