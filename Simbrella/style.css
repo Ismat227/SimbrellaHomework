@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fixed-nav nav {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.fixed-nav nav a {
+  color: black;
+}
+
+.sticky {
+  padding: 5px 100px;
+  background: #fff;
+}
+
+.nav-logo {
+  width: 144px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin-top: 35px;
+  margin-left: 106px;
+}
+
+.container-header {
+  height: 100vh;
+  background-image: url("photo/cover.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.container-header::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.nav-search {
+  margin-top: 49px;
+  margin-right: 147px;
+}
+
+.nav-search ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-search li {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 20px;
+  z-index: 2;
+}
+
+.nav-search a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+}
+
+.nav-search a:hover {
+  color: #FF992A;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  height: 330px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 104px;
+  position: absolute;
+  z-index: 3;
+}
+
+.info-h1 {
+  padding: 0 0 16px 0;
+}
+
+.info-h1 h1 {
+  color: #ffffff;
+}
+
+.info-p {
+  padding: 0 0 48px 0;
+}
+
+.info-p p {
+  color: white;
+}
+
+.mouse-scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0;
+  margin-left: 81px;
+  padding: 0 20px;
+}
+
+.mouse-scroll a {
+  display: inline-block;
+  width: 23px;
+}
+
+.mouse-scroll a img {
+  width: 100%;
+}
+
+.mouse-scroll span {
+  margin-left: 13px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
